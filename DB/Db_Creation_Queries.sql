@@ -1,0 +1,12 @@
+CREATE DATABASE TaskManagerDB;
+
+-- DROP DATABASE  TaskManagerDB;
+
+USE TaskManagerDB;
+-- DROP TABLE Tasks;
+CREATE TABLE MyTasks (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Title VARCHAR(255) NOT NULL,
+    Description TEXT,
+    Status VARCHAR(50) NOT NULL
+);
